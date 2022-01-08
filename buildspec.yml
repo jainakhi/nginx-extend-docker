@@ -12,10 +12,6 @@ phases:
       - echo Build completed successfully
 artifacts:
   files:
-    - target/car-rentals*/*
-  discard-paths: yes
-
-cache:
-  paths:
-    - '/root/.m2/**/*'
+    - Dockerrun.aws.json
+    - Buildspec.yml
     - .platform/**/*
